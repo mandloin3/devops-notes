@@ -1,0 +1,4 @@
+server {
+    location /elb-status {
+        access_log off;
+        return 200;
